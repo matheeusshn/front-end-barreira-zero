@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import type { ComponentPropsWithRef } from "react";
 
-const MotionH1 = motion.h1 as typeof motion.h1;
+const MotionH1 = motion<ComponentPropsWithRef<"h1">>("h1");
 
 export default function Header() {
   return (
