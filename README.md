@@ -1,32 +1,48 @@
-# 🧱 Barreira Zero - Acessibilidade como Prioridade
+# 🧠 Barreira Zero – Acessibilidade com Tecnologia
 
-Uma landing page moderna desenvolvida com Next.js, React, TypeScript e TailwindCSS para promover acessibilidade e inclusão.
+Uma landing page moderna e responsiva, desenvolvida com Next.js e TailwindCSS, que consome uma API de acessibilidade e apresenta soluções interativas com foco em inclusão digital. 
+---
 
-## 🧠 Propósito
+## 📚 Sobre o Projeto
 
-Este projeto resolve problemas reais de acessibilidade digital, integrando ferramentas como transcrição de áudio, LIBRAS e elementos acessíveis com ARIA.
+*Barreira Zero* foi criado com o objetivo de promover a inclusão de pessoas com deficiência auditiva e visual através de tecnologia acessível. O sistema simula o uso de ferramentas inclusivas como:
 
-## 🚀 Tecnologias
+- ✔ Um botão acessível com atributos ARIA e explicações técnicas.
+- ✔ Um sistema de transcrição automática de áudios via URL.
+- ✔ Tradução em tempo real de texto digitado para LIBRAS.
+- ✔ Frases educacionais acompanhadas de vídeos em LIBRAS.
 
-- *Next.js* 14+
-- *React* 18+
-- *TypeScript*
-- *TailwindCSS*
-- *Framer Motion*
+A página é responsiva, animada com Framer Motion, organizada em componentes reutilizáveis e com um layout elegante utilizando TailwindCSS.
 
-## 🔧 Funcionalidades
+---
 
-- 🔘 Botão acessível com ARIA
-- 🔊 Transcrição de áudio por URL
-- 🤟 Tradução de texto para LIBRAS
-- 🎬 Frases educacionais com vídeos em LIBRAS
-- ✨ Layout responsivo e animado
+## 🚀 Tecnologias Utilizadas
 
-## 📦 Instalação
+| Ferramenta         | Versão       |
+|--------------------|--------------|
+| [Next.js](https://nextjs.org/)       | 13+ |
+| [React](https://reactjs.org/)        | 18+ |
+| [TypeScript](https://www.typescriptlang.org/) | 4+ |
+| [Tailwind CSS](https://tailwindcss.com/)     | 3+ |
+| [Framer Motion](https://www.framer.com/motion/) | 10+ |
+| [HeroIcons](https://heroicons.com/)         | -  |
+
+---
+
+## 📦 Como Rodar o Projeto
 
 ```bash
-git clone https://github.com/seu-usuario/barreira-zero-landing.git
-cd barreira-zero-landing
+# 1. Clone o repositório
+git clone https://github.com/matheeusshn/front-end-barreira-zero
+
+# 2. Acesse a pasta
+cd front-end-barreira-zero
+
+# 3. Instale as dependências
 npm install
+
+# 4. Execute a aplicação
 npm run dev
-Certifique-se de que a API M4 esteja rodando em http://localhost:3001
+
+# 5. Acesse em:
+http://localhost:3000

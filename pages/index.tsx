@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Head from 'next/head'
 
 
+// Página inicial: Landing Page que consome as rotas da API
 export default function Home() {
 return (
     <>
