@@ -14,6 +14,9 @@ Uma landing page moderna e responsiva, desenvolvida com Next.js e TailwindCSS, q
 
 A página é responsiva, animada com Framer Motion, organizada em componentes reutilizáveis e com um layout elegante utilizando TailwindCSS.
 
+API Utilizada: https://github.com/matheeusshn/barreira-zero-api
+Link para site: https://front-end-barreira-zero.vercel.app/
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
